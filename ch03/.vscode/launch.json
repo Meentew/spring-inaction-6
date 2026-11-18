@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TacoCloudApplication<taco-cloud-jdbctemplate>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tacos.TacoCloudApplication",
+            "projectName": "taco-cloud-jdbctemplate",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TacoCloudApplication<taco-cloud-sd-jdbc>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tacos.TacoCloudApplication",
+            "projectName": "taco-cloud-sd-jdbc",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TacoCloudApplication<taco-cloud-sd-jpa>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tacos.TacoCloudApplication",
+            "projectName": "taco-cloud-sd-jpa",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
